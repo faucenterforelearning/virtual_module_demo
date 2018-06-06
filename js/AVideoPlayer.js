@@ -171,6 +171,7 @@ var AVideoPlayer = function() {
     this._addControlsEvent();
     this._addProgressEvent();
     this._mobileFriendly();
+    //forceplay this.elVideo.play();
   }
   this.init();
 }
